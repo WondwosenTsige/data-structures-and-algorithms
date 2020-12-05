@@ -42,6 +42,9 @@ For example:
 
 const isNum = (input) => {
   // Solution code here...
+  const lookForNum = /\d/;
+  return lookForNum.test(input);
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -54,6 +57,14 @@ Return an array containing all the matches.
 
 const isCapitalized = (str) => {
   // Solution code here...
+  const startWithCapital = /\b[A-Z]\w*/gm;
+  const outPut = str.match(startWithCapital);
+  if(outPut){
+    return outPut;
+  }else{
+    return [];
+  }
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -64,6 +75,14 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 
 const citiesAtoJ = (arr) => {
   // Solution code here...
+  const cities = /^\b[A-J]\w*/;
+  const atojCities = [];
+  for(let i=0; i<arr.length; i++){
+    if(cities.test(arr[i])){
+      atojCities.push(arr[i]);
+    }
+  }
+  return atojCities;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -145,7 +164,7 @@ describe('Testing challenge 1', () => {
   })
 });
 
-xdescribe('Testing challenge 2', () => {
+describe('Testing challenge 2', () => {
   test('It should return true if the input is a number', () => {
     expect(isNum(1234567890)).toBeTruthy();
     expect(isNum('12345')).toBeTruthy();
@@ -159,7 +178,8 @@ xdescribe('Testing challenge 2', () => {
   });
 });
 
-xdescribe('Testing challenge 3', () => {
+
+describe('Testing challenge 3', () => {
   test('It should only return words that begin with a capital letter', () => {
     const capitalResult = isCapitalized('We only want to Return the Words that begin With a capital Letter');
 
