@@ -71,6 +71,12 @@ let $ = createSnippetWithJQuery(`
 
 const templatingWithMustache = () => {
   // Solution code here...
+  const valOfCharacters =[];
+  for(let i=0; i<characters.length; i++){
+    const charTemplate = $('#template').html();
+    valOfCharacters.push(Mustache.render(charTemplate, characters[i]));
+  }
+  return valOfCharacters;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -87,6 +93,7 @@ const courseInfo = { name: 'Code 301', duration: { dayTrack: '4 weeks', eveningT
 
 const getCourseKeys = (obj) => {
   // Solution code here...
+  return Object.keys(courseInfo);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -98,6 +105,9 @@ Write a function named getHouses that returns a new array containing the names o
 const getHouses = (arr) => {
   let houses = [];
   // Solution code here...
+  for(let i=0; i<arr.length; i++){
+    houses.push(arr[i].house);
+  }
   return houses;
 };
 
