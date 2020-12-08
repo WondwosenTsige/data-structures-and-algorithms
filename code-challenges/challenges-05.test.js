@@ -149,9 +149,15 @@ const gruffaloCrumble = {
 const listFoods = (recipe) => {
   let result = [];
   // Solution code here...
-  let niceFoods = receipe.ingredients;
+  let niceFoods = recipe.ingredients;
   let foodsList;
-  for(let i=0; i<)
+  for(let i=0; i<2; i++){
+    for(let j=0; j<niceFoods.length; j++){
+      foodsList = niceFoods[j];
+      niceFoods[j] = foodsList.slice(foodsList.indexOf(' ')+1, foodsList.length);
+    }
+  }
+  result = niceFoods;
   return result;
 };
 
