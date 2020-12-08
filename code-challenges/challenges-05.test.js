@@ -148,7 +148,7 @@ const gruffaloCrumble = {
 
 const listFoods = (recipe) => {
   let result = [];
-  // Solution code here...
+  // Solution code here
   let niceFoods = recipe.ingredients;
   let foodsList;
   for(let i=0; i<2; i++){
@@ -160,6 +160,17 @@ const listFoods = (recipe) => {
   result = niceFoods;
   return result;
 };
+//   let niceFoods = recipe.ingredients;
+//   let foodsList;
+//   for(let i=0; i<2; i++){
+//     for(let j=0; j<niceFoods.length; j++){
+//       foodsList = niceFoods[j] = foodsList.slice(foodsList.indexOf('')+1, foodsList.length);
+// 
+//     }
+//   }
+//   result = niceFoods;
+//   return result;
+// };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5 - Stretch Goal
