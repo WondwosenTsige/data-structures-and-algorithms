@@ -46,9 +46,22 @@ Note: You might need to use the same method more than once.
 For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 ------------------------------------------------------------------------------------------------ */
 
-const count = (target, input) => {
-  // Solution code here...
-};
+  const count = (target, input) => {
+    // Solution code here...
+    let count = 0;
+    input.map(outerArray => {
+      // console.log(outerArray);
+      outerArray.map(insideArray =>{
+            // console.log(insideArray);
+            if(target === insideArray){
+              count++;
+            }
+      })
+    })
+    // console.log(count);
+    return count;
+  };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
@@ -62,6 +75,13 @@ For example, [[1, 2, 3, 4, 5], [6, 7, 2, 4, 5, 7], [9, 2, 3, 6,]] returns 66.
 
 const totalSum = (input) => {
   // Solution code here...
+  let sumOfAllArrays = 0;
+  input.forEach(firstArray => {
+    firstArray.forEach(elements =>{
+      sumOfAllArrays += elements;
+    })
+  })
+  return sumOfAllArrays;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -78,7 +98,28 @@ For example, [ [0,2,5,4], [2,4,10], [] ] should return [ [1, 32], [1024], [] ].
 
 const divisibleByFiveTwoToThePower = (input) => {
   // Solution code here...
-};
+  // [5], [10]
+  // Math.pow([], 2)
+    let finalResult = [];
+    let divisableByFive;
+    input.forEach(firstArray => {
+      firstArray.forEach(nextArray => {
+        
+         if(nextArray % 5 === 0){
+           divisableByFive = nextArray;
+          finalResult.push(Math.pow(2, divisableByFive));
+         }
+        //  }else{
+        //    finalResult.push([]);
+        //  }
+         
+         //console.log(divisableByFive);
+      })
+  finalResult.push([]);
+    })
+  
+    return finalResult;
+  };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5 - Stetch Goal
