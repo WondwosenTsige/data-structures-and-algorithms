@@ -189,6 +189,25 @@ let starWarsData = [{
 
 let findMaleAndFemale = (data) => {
   // Solution code here...
+  const nameList = [];
+  data.forEach(names => {
+    //console.log(names)
+    if(names.gender === 'female' || names.gender === 'male'){
+    nameList.push(names.name);
+    }
+  })
+  console.log(nameList);
+let namesWithAnd = '';
+for (let i=0; i<nameList.length; i++){
+  if (i < nameList.length-1){
+
+    namesWithAnd = namesWithAnd + nameList[i] + ' and ';
+  }else{
+    namesWithAnd = namesWithAnd + nameList[i];
+  }
+}
+
+return namesWithAnd;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -285,7 +304,7 @@ describe('Testing challenge 4', () => {
   });
 });
 
-xdescribe('Testing challenge 5', () => {
+describe('Testing challenge 5', () => {
   test('It should return only characters that are male or female', () => {
     expect(findMaleAndFemale(starWarsData)).toStrictEqual('Luke Skywalker and Darth Vader and Leia Organa');
     expect(findMaleAndFemale([{ name: 'person', gender: 'female' }, { gender: 'lol' }, { name: 'persontwo', gender: 'male' }])).toStrictEqual('person and persontwo');
