@@ -12,29 +12,33 @@ const createServer = () => {
   const express = require('express');
 
   const app = express();
-
-  var server = app.listen(3301, function () {
-    var port = server.address().port;
-    console.log('Example app listening at port', port);
-  });
-
   app.get('/hello', (req, res) => {
-
-    // res.status(400).send('ERROR LOADING PAGE');
-    res.status(200).send('ERROR LOADING PAGE');
     
     res.send('Hi bye');
   })
 
-  app.get('/heabout me', (req, res) => {
+  app.get('/aboutme', (req, res) => {
     res.send('from mars');
   })
 
   app.get('/favoritefoods', (req, res) => {
     res.send('Doro');
   })
+
+  app.use('*', (request, response) =>{
+    response.status(404).send('error loading the page you requested');
+  })
+
+  var server = app.listen(3301, function () {
+    var port = server.address().port;
+    console.log('Example app listening at port', port);
+  });
+
   return server;
 };
+
+  
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
