@@ -4,7 +4,7 @@
 CHALLENGE 1 - Review
 
 Write a function that finds maximum value in an array
-using the 'reduce' method.
+using the 'reduce' method.s
 
 E.g. [4,2,7,5,9,2] -> 9
 ------------------------------------------------------------------------------------------------ */
