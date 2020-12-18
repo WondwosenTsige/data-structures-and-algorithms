@@ -10,6 +10,14 @@ E.g. [4,2,7,5,9,2] -> 9
 ------------------------------------------------------------------------------------------------ */
 const maxInArray = (arr) => {
   // Solution code here...
+
+  return arr.reduce((accumulator, currentValue)=>{
+    if(currentValue > accumulator){
+      accumulator = currentValue;
+    }
+    return accumulator;
+  },0)
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -51,7 +59,12 @@ Write a function named salesData that uses forEach to iterate over the hourlySal
 
 const salesData = (hours, data) => {
   // Solution code here...
-};
+//   let salesPhour = [];
+//   hours.forEach((element, position) =>{
+//   return salesPhour.push({sales: `${data[position]} cookies`, time: element});
+//   });
+//  // return salesPhour;
+// };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
