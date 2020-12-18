@@ -10,6 +10,7 @@ E.g. [4,2,7,5,9,2] -> 9
 ------------------------------------------------------------------------------------------------ */
 const maxInArray = (arr) => {
   // Solution code here...
+ 
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -36,6 +37,15 @@ const cookieStores = [firstPike, seaTac, seattleCenter, capHill, alkiBeach];
 
 const grandTotal = (stores) => {
   // Solution code here...
+  let totalOfTotals = [];
+  for (let i = 0; i < hoursOpen.length; i++) {
+    let add = 0;
+    for (let j = 0; j < stores.length; j++) {
+      add = add + stores[j][i];
+    }
+    totalOfTotals.push(add);
+  }
+  return totalOfTotals;
 
 };
 
@@ -51,6 +61,11 @@ Write a function named salesData that uses forEach to iterate over the hourlySal
 
 const salesData = (hours, data) => {
   // Solution code here...
+  let eachHour = [];
+  hours.forEach((value, count) => {
+    eachHour.push({ sales: `${data[count]} cookies`, time: value });
+  });
+  return eachHour;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -76,6 +91,15 @@ const errands = [
 
 const howManyTreats = (arr) => {
   // Solution code here...
+    let starter = 0;
+    arr.map(value => {
+      value.items.filter(values => {
+        if (values.name === 'Treats') {
+          starter = values.quantity;
+        }
+      });
+    });
+    return starter;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -98,6 +122,11 @@ The top row of the board is considered row zero and row numbers increase as they
 
 const battleship = (board, row, col) => {
   //  Solution code here...
+  if (board[row][col] === '#') {
+    return 'hit';
+  }else{
+  return 'miss';
+  }
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -222,7 +251,7 @@ describe('Testing challenge 4', () => {
   });
 });
 
-xdescribe('Testing challenge 5', () => {
+describe('Testing challenge 5', () => {
   const battleshipData = [
     ['#', ' ', '#', ' '],
     ['#', ' ', '#', ' '],
