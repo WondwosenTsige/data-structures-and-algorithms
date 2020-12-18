@@ -47,6 +47,8 @@ For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['this
 
 const findHappiness = (arr) => {
   // Solution code here...
+  return arr.filter(concatnateArray => concatnateArray.includes(':)'))
+     
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -71,6 +73,8 @@ For example, 'abcdefg' returns 'bdf'
 
 const onlyOddChars = (str) => {
   // Solution code here...
+  // return str.map(str => {
+ 
 };
 
 /* ------------------------------------------------------------------------------------------------
