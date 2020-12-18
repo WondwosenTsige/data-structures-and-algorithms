@@ -21,7 +21,6 @@ const $ = createSnippetWithJQuery(`
 
 const fixTheTypo = () => {
 // Solution code here...
-$('.pear').text('Pear');
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -34,7 +33,6 @@ For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['t', 
 
 const firstLetters = (arr) => {
   // Solution code here...
-  return arr.map(value1 => value1.slice(0,1))
 };
 
 /* ------------------------------------------------------------------------------------------------
