@@ -171,14 +171,14 @@ const mapCurrentEvents = () => {
    const data = currentEvents.news.map(value => new Event(value)
    
    );
-   console.log('still no',data)
+  // console.log('still no',data)
    return data;
 }
 
 function Event(obj){
   // Solution code here...
   this.author = obj.author;
-  this.categories = obj.categories;
+  this.category = obj.category;
   this.summary = obj.summary;
   this.img_url = obj.img_url;
   this.date = obj.date;
