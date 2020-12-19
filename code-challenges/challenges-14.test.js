@@ -14,10 +14,13 @@ const createServer = () => {
 
   // solution code goes here ...
 
-  app.get('/', (req, res));
-  app.delete('/things/1', (req,res));
-
-  req.send()
+  app.get('/', (req, res) => {
+    res.status(200).send('Bad route');
+  });
+  
+  app.delete('/things/1', (req, res) =>{
+    res.status(405).send('very bad route');
+  });
 
   var server = app.listen(3000, function () {
     var port = server.address().port;
@@ -144,8 +147,10 @@ https://secure.com returns true because the URL is secure
 https:/missingslash.org returns false because the URL is malformed
 ------------------------------------------------------------------------------------------------ */
 const isSecure = (url) => {
-  // Solution code here...
-};
+  //Solution code here...
+  let regex = /https:\/\//;
+  return regex.test(url);
+  };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6 - Stretch Goal
@@ -259,7 +264,7 @@ describe('Testing challenge 4', () => {
   });
 });
 
-xdescribe('Testing challenge 5', () => {
+describe('Testing challenge 5', () => {
   test('It should check if url is https', () => {
 
     expect(isSecure('http://www.insecure.com')).toBe(false);
