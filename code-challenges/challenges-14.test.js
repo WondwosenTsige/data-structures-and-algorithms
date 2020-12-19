@@ -13,14 +13,6 @@ const createServer = () => {
   const app = express();
 
   // solution code goes here ...
-app.get('/', (req, res) => {
-  res.status(200).send('Bad route');
-});
-
-app.delete('/things/1', (req, res) =>{
-  res.status(405).send('very bad route');
-});
-
 
   var server = app.listen(3000, function () {
     var port = server.address().port;
