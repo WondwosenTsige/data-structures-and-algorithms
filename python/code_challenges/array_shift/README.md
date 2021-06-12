@@ -4,6 +4,6 @@
 
 ## Whiteboard image
 
-[Whiteboard image](./images/array-shift.png)
+[Whiteboard image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/array-shift.png)
 
 ## approach and efficiency
