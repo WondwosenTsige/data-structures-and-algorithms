@@ -1,3 +1,3 @@
 # Table Of Contents
 
-[Whiteboard image: Array Binary Search](/mnt/c/Users/Dagmawi/codefellows/code401/data-structures-and-algorithms/python/code_challenges/images/array-reverse.png)
+[Array Binary Search](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/array_binary_search/README.md)

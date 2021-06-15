@@ -2,12 +2,16 @@
 
 ## Challenge
 
-Write a function called "reverseArray" which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return an array with elements in reversed order.
+Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods, return the index of the array’s element that is equal to the value of the search key, or -1 if the element is not in the array.
 
 ## Whiteboard image
 
-[Whiteboard image](/mnt/c/Users/Dagmawi/codefellows/code401/data-structures-and-algorithms/python/code_challenges/images/array-reverse.png)
+[Whiteboard image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/array-binary-search.png)
 
 ## approach and efficiency
 
-I choose getting the last index of the list minus one approach beacuse that is the simpler one I know while working on my pre work.
+We choose getting the middle index of the list and compare it with the search key so that we can know which hlaf orf the array we need to search.
+
+## Collaborator
+
+My class mate Michael Hendricks and me collaborated for this code challenge
