@@ -1,4 +1,4 @@
-# Singly Linked List
+# Singly Linked List: lab-05
 <!-- Short summary or background information -->
 
 
@@ -36,3 +36,5 @@ Able to return a collection of all the values that exist in the linked list
 ## Collaboration
 
 For this code challenge, I collaborated with Davee Sok, Daniel Dills and Michael Ryan
+
+
