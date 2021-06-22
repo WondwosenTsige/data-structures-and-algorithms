@@ -1,6 +1,6 @@
-## Linked list insertions: lab-06
+# Linked list insertions: lab-06
 
-### Challenge description
+## Challenge description
 
 Extend the LinkedList class to allow various insertion methods:
 
@@ -10,7 +10,7 @@ Extend the LinkedList class to allow various insertion methods:
 
 - .nsertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
 
-### Unit Tests Required
+## Unit Tests Required
 
 1. Can successfully add a node to the end of the linked list
 
@@ -24,15 +24,13 @@ Extend the LinkedList class to allow various insertion methods:
 
 6. Can successfully insert a node after the last node of the linked list
 
-
-### Whiteboard image
+## Whiteboard image
 
 [Whiteboard image: Linked list insertion](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/ll-insertion.jpg)
 
-### approach and efficiency
+## approach and efficiency
 
-
-### Resources and Collaboration
+## Resources and Collaboration
 
 This is a paired assignment with Gleen Clark
 
