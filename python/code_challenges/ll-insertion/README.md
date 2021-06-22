@@ -32,3 +32,19 @@ Extend the LinkedList class to allow various insertion methods:
 ### approach and efficiency
 
 
+### Resources and Collaboration
+
+This is a paired assignment with Gleen Clark
+
+We use the following websites as reference and sample codes
+
+    https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm
+
+    https://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/
+
+    https://stackoverflow.com/questions/61839128/edge-cases-in-creating-a-custom-linked-list
+
+    https://www.geeksforgeeks.org/insert-a-node-in-linked-list-before-a-given-node/
+
+
+
