@@ -5,6 +5,7 @@ def test_import():
     assert LinkedList
 
 def test_node_class_can_instanciate():
+    #Creating a new node instance
     node1 = Node("mango")
     actual = node1.value
     expected = "mango"
@@ -17,7 +18,7 @@ def test_can_instanciate_empty_list():
     expected = None
     assert actual == expected
 
-def test_can_insert_into_lenght_list():
+def test_can_insert_into_linkedt_list():
     linkedlist1 = LinkedList()
     linkedlist1.insert("a")
     linkedlist1.insert("b")
@@ -54,7 +55,7 @@ def test_will_return_False_when_value_not_found_in_linked_list():
     expected = False
     assert actual == expected
 
-def test_can_return_all_values_exited_in_linked_list():
+def test_can_return_all_values_existed_in_linked_list():
     linklist1 = LinkedList()
     linklist1.insert("a").insert("b").insert("c").insert("d")
     actual = str(linklist1)
