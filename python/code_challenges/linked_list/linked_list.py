@@ -85,3 +85,5 @@ class LinkedList:
                 return self
             current = current.next
         print("Taregt not found in the linked list")
+
+    
