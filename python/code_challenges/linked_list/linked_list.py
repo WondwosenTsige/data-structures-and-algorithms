@@ -54,21 +54,21 @@ class LinkedList:
         return self
 
     def insert_before(self, target, new_value):
-        new_node = Node(new_value)
+        current = self.head
 
         if self.head is None:
             print("Empty linked list")
 
         if self.head.value == target:
-            new_node.next = self.head
-            self.head = new_node
-            return self
+           self.head = Node(new_value, self.head)
+           return
 
-        current = self.head
-        while current != None:
+        while current.next != None:
             if current.next.value == target:
-                new_node.next = new_node
-                return self
+               new_node = Node(new_value, current.next)
+               current.next = new_node
+               return
+
             current = current.next
         print("Taregt not found in the linked list")
 
