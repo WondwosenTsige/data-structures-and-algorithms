@@ -72,7 +72,8 @@ def test_insert_before_a_target_node():
     new_linkedlist = LinkedList()
     new_linkedlist.insert("w")
     new_linkedlist.append("x")
-    assert new_linkedlist.head.value == "w"
+    new_linkedlist.insert_before("x","z")
+    assert new_linkedlist.head.next.value == "z"
 
 def test_insert_after_a_target_node():
     new_linkedlist = LinkedList()
