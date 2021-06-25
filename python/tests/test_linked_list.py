@@ -81,9 +81,9 @@ def test_insert_after_a_target_node():
     new_linkedlist.insert_after("x", "z")
     assert new_linkedlist.head.next.next.value == "z"
 
-def kth_value_is_negative():
+def test_kth_value_is_negative():
     new_linkedlist = LinkedList()
-    new_linkedlist.kth_from_end.count - 2
+    new_linkedlist.kth_from_end(-2)
     assert "Input is negative number"
 
 
