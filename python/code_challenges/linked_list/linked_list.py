@@ -87,5 +87,17 @@ class LinkedList:
         print("Taregt not found in the linked list")
 
 
-    # def kth_from_end(self, k):
+    def kth_from_end(self, k):
+
+        length = 0
+        current = self.head
+
+        if k > length:
+            print("The given number is greater than the length of the linked list")
+
+        if k == 0:
+            print("The given number is equal to the length of the linked list")
+
+        if k < 0:
+            print("The given number is negative")
 
