@@ -95,16 +95,16 @@ class LinkedList:
            list_head = list_head.next
            count += 1
         if k > count:
-            print("Out of Range")
+            return "Out of Range"
 
         elif k == count:
-            print("Same Length")
+            return "Same Length"
 
         elif k < 0:
-            print("Input is negative number")
+            return "Input is negative number"
 
         elif k == self:
-            print("Linked list needs to be greater than 1")
+            return "Linked list needs to be greater than 1"
 
         list_head = self.head
         for i in range(0, count - k):
