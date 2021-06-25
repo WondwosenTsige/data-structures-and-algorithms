@@ -33,7 +33,7 @@ Able to return False when searching for a value in the linked list that does not
 
 Able to return a collection of all the values that exist in the linked list
 
-## Collaboration
+### Collaboration
 
 For this code challenge, I collaborated with Davee Sok, Daniel Dills and Michael Ryan
 
@@ -82,3 +82,32 @@ We use the following websites as reference and sample codes
     https://stackoverflow.com/questions/61839128/edge-cases-in-creating-a-custom-linked-list
 
     https://www.geeksforgeeks.org/insert-a-node-in-linked-list-before-a-given-node/
+
+
+## Linked list kth: lab-07
+
+### Challenge description
+
+Write the following method for the Linked List class:
+
+- kth from end
+
+- argument: a number, k, as a parameter.
+
+- Return the node’s value that is k places from the tail of the linked list.
+
+- You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+### Unit Tests Required
+
+1. Where k is greater than the length of the linked list
+2. Where k and the length of the list are the same
+3. Where k is not a positive integer
+4. Where the linked list is of a size 1
+5. “Happy Path” where k is not at the end, but somewhere in the middle of the linked list
+
+### Approach and efficieny
+
+
+### Collaboration
+
