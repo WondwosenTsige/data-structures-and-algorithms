@@ -62,3 +62,23 @@ def test_can_return_all_values_existed_in_linked_list():
     expected = "{'d'} -> {'c'} -> {'b'} -> {'a'} ->  None "
     assert actual == expected
 
+def test_append():
+    new_linkedlist = LinkedList()
+    new_linkedlist.append("j")
+    new_linkedlist.append("k")
+    assert new_linkedlist.head.value == "j"
+
+def test_insert_before_a_target_node():
+    new_linkedlist = LinkedList()
+    new_linkedlist.insert("w")
+    new_linkedlist.append("x")
+    assert new_linkedlist.head.value == "w"
+
+def test_insert_after_a_target_node():
+    new_linkedlist = LinkedList()
+    new_linkedlist.append("x")
+    new_linkedlist.insert("z")
+    new_linkedlist.insert_after("x", "z")
+    assert new_linkedlist.head.next.next.value == "z"
+
+

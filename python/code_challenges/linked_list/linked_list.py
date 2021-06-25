@@ -48,7 +48,7 @@ class LinkedList:
             self.head = new_node
             return self
         current = self.head
-        while current.head != None:
+        while current.next != None:
             current = current.next
         current.next = new_node
         return self
@@ -74,16 +74,18 @@ class LinkedList:
 
 
     def insert_after(self, target, new_value):
-        new_node = Node(new_value)
         if self.head is None:
             print("Empty linked list")
 
         current = self.head
         while current != None:
             if current.value == target:
-                new_node.next = new_node
-                return self
+                new_node = Node(new_value, current.next)
+                current.next = new_node
+                return
             current = current.next
         print("Taregt not found in the linked list")
 
-    
+
+    # def kth_from_end(self, k):
+
