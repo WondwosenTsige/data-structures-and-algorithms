@@ -88,16 +88,26 @@ class LinkedList:
 
 
     def kth_from_end(self, k):
+        list_head = self.head
+        count = 0
 
-        length = 0
-        current = self.head
+        while list_head != None:
+           list_head = list_head.next
+           count += 1
+        if k > count:
+            print("Out of Range")
 
-        if k > length:
-            print("The given number is greater than the length of the linked list")
+        elif k == count:
+            print("Same Length")
 
-        if k == 0:
-            print("The given number is equal to the length of the linked list")
+        elif k < 0:
+            print("Input is negative number")
 
-        if k < 0:
-            print("The given number is negative")
+        elif k == self:
+            print("Linked list needs to be greater than 1")
+
+        list_head = self.head
+        for i in range(0, count - k):
+            list_head = list_head.next
+        return list_head.value
 
