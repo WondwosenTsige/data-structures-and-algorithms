@@ -84,7 +84,25 @@ def test_insert_after_a_target_node():
 
 def test_kth_value_is_negative():
     new_linkedlist = LinkedList()
-    new_linkedlist.kth_from_end(-2)
-    assert "Input is negative number"
+    actual = new_linkedlist.kth_from_end(-1)
+    expected = "Input is negative number"
+    assert actual == expected
+
+def test_kth_value_is_greater_than_the_linked_list():
+    new_linkedlist = LinkedList()
+    actual = new_linkedlist.kth_from_end(7)
+    expected = "kth value is greater than the lenght of the linked list"
+    assert actual == expected
+
+def test_linkedlist_is_size_of_one():
+    new_linkedlist = LinkedList()
+    actual = new_linkedlist.kth_from_end(0)
+    expected = "The linked list only has one node"
+    assert actual == expected
 
 
+# def test_linked_list_has_same_lenght_with_k():
+#     new_linkedlist = LinkedList()
+#     actual = new_linkedlist.kth_from_end(4)
+#     expected = "K & the list are of the same Length"
+#     assert actual == expected

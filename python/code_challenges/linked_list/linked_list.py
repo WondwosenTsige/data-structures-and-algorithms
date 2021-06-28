@@ -94,17 +94,18 @@ class LinkedList:
         while list_head != None:
            list_head = list_head.next
            count += 1
+
         if k > count:
-            return "Out of Range"
+            return "kth value is greater than the lenght of the linked list"
 
         elif k == count:
-            return "Same Length"
+            return "The linked list only has one node"
 
         elif k < 0:
             return "Input is negative number"
 
-        elif k == self:
-            return "Linked list needs to be greater than 1"
+        elif self == k:
+            return "K & the list are of the same Length"
 
         list_head = self.head
         for i in range(0, count - k):
