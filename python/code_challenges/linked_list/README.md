@@ -110,8 +110,13 @@ Write the following method for the Linked List class:
 
 5. “Happy Path” where k is not at the end, but somewhere in the middle of the linked list
 
+### whiteboard image
+
+[Whiteboard image: linked list kth](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/linked-list-kth.jpg)
+
 ### Approach and efficieny
 
 
 ### Collaboration
 
+This assignment is a group work in collaboration with Garfield Grant, Prabin Singh, and Gleen Clark.
