@@ -10,3 +10,5 @@
 
 3. [Linked list kth value](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/linked_list/README.md)
 
+4. [Linked list zip](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/linked_list_zip/README.md)
+
