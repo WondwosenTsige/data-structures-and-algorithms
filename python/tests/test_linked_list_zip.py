@@ -5,4 +5,3 @@ def test_one_of_the_linked_lists_is_empty():
     assert linkedlist1.head == None
 
 
-

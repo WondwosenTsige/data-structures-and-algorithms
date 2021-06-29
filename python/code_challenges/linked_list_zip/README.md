@@ -20,13 +20,13 @@ You have access to the Node class and all the properties on the Linked List clas
 
 ## Whiteboard image
 
-[Whiteboard image: Linked list zip]()
+[Whiteboard image: Linked list zip](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/linked-list-zip.png)
 
 ## approach and efficiency
 
 ## Resources and Collaboration
 
-This is a paired assignment with Gleen Clark
+This is a paired assignment with Tony Regalado so I get help from him, and our TAs Ben Hill and Anthony Beaver
 
 We use the following websites as reference and sample codes
 
