@@ -8,35 +8,24 @@ class LinkedList:
         self.head = node
 
 
-def push(self, value):
-        # method body here
-        #create a new node
-        node = Node(value)
+# def __str__(self):
+#         string = ""
+#         #Making current to equal the first node
+#         current = self.head
 
-        node.next = self.head
-        self.head = node
-        return self
+def zip_list(linkedlist1, linkedlist2):
 
-def zip_lists(self, linkedlist2):
-    linkedlist1_current = self.head
-    linkedlist2_current = linkedlist2.head
+        linkedlist1_curr = linkedlist1.head
+        linkedlist2_curr = linkedlist2.head
 
-    while linkedlist1_current != None and linkedlist2_current is not None:
+        while linkedlist1_curr != None and linkedlist2_curr != None:
 
-        #Setting next pointers
-        linkedlist1_next = linkedlist1_current.next
-        linkedlist2_next = linkedlist2_current.next
+            #Save next pointers
+            linkedlist1_next = linkedlist1_curr.next
+            linkedlist2_next = linkedlist2_curr.next
+            linkedlist2_curr.next = linkedlist1_next # change next pointer of q_curr
+            linkedlist1_curr.next = linkedlist2_curr # change next pointer of p_curr
+            linkedlist1_curr = linkedlist1_next
+            linkedlist2_curr = linkedlist2_next
 
-        #Change next pointer of linkelist2 current
-        #Change next pointer of linkelist1 current
-        linkedlist2_current.next = linkedlist1_next
-        linkedlist1_current.next = linkedlist2_next
-
-        #Update current pointers for next iteration
-        linkedlist1_current = linkedlist1_next
-        linkedlist2_current = linkedlist2_next
-
-    linkedlist2.head = linkedlist2_current
-
-
-
+        linkedlist2.head = linkedlist2_curr
