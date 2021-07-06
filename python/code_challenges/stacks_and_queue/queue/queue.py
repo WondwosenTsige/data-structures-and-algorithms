@@ -10,7 +10,6 @@ class Queue:
         self.rear = node
 
     def enqueue(self, value):
-
         node = Node(value)
 
         if self.front is None:
@@ -25,21 +24,23 @@ class Queue:
     def dequeue(self):
 
         if self.front is None:
-            raise Exception("Queue is Empty")
+            raise Exception("Queue is empty")
 
-        dequed = self.front.value
+        temp = self.front.value
         self.front = self.front.next
-        return dequed
+        return temp
 
     def peek(self):
+
         if self.front is None:
-            raise Exception("Queue is Empty")
+            raise Exception("Queue is empty")
 
         return self.front.value
 
     def isEmpty(self):
+
         return self.front == None
 
 
-if __name__ == "__main__":
-    pass
+# if __name__ == "__main__":
+#     pass

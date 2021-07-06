@@ -16,19 +16,19 @@ class Stack:
 
     def pop(self):
         if self.top is None:
-            raise Exception("Stack is Empty")
-        popped = self.top.value
+            raise Exception("Stack is empty")
+        temp = self.top.value
         self.top = self.top.next
-        return popped
+        return temp
 
     def peek(self):
         if self.top is None:
-            raise Exception("Stack is Empty")
+            raise Exception("Stack is empty")
         return self.top.value
 
     def isEmpty(self):
         return self.top == None
 
 
-if __name__ == "__main__":
-    pass
+# if __name__ == "__main__":
+#     pass
