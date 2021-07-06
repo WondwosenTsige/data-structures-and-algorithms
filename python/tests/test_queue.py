@@ -1,6 +1,6 @@
 import pytest
 
-from stacks_and_queue.queue import Queue
+from stacks_and_queue.queue.queue import Queue
 
 
 def test_Can_successfully_instantiate_an_empty_queue():

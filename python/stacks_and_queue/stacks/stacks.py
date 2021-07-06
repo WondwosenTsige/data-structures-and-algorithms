@@ -17,7 +17,6 @@ class Stack:
     def pop(self):
         if self.top is None:
             raise Exception("Stack is Empty")
-            # return None
         popped = self.top.value
         self.top = self.top.next
         return popped
@@ -25,7 +24,6 @@ class Stack:
     def peek(self):
         if self.top is None:
             raise Exception("Stack is Empty")
-            # return None
         return self.top.value
 
     def isEmpty(self):
