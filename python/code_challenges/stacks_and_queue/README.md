@@ -23,10 +23,13 @@ The class should contain the following methods enqueue, dequeue, peek, and isemp
 
 ## Link to code
 
-[Stack code](code_challenges/stacks_and_queue/stacks/stacks.py)
-[Queue code](code_challenges/stacks_and_queue/queue/queue.py)
-[Test stack](tests/test_stacks.py)
-[Test Queue](tests/test_queue.py)
+[Stack code](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/stacks_and_queue/stacks/stacks.py)
+
+[Queue code](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/stacks_and_queue/queue/queue.py)
+
+[Test stack](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/tests/test_stacks.py)
+
+[Test Queue](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/tests/test_queue.py)
 
 ## Unit Tests Required
 
