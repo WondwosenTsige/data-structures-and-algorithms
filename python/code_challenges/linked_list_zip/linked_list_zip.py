@@ -8,10 +8,14 @@ class LinkedList:
         self.head = node
 
 
-# def __str__(self):
-#         string = ""
-#         #Making current to equal the first node
-#         current = self.head
+    def __str__(self):
+            string = ""
+            #Making current to equal the first node
+            current = self.head
+            while current:
+                string += current.value
+                current  = current.next
+            return string
 
 def zip_list(linkedlist1, linkedlist2):
 

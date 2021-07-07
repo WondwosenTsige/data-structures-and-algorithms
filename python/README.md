@@ -12,3 +12,4 @@
 
 4. [Linked list zip](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/linked_list_zip/README.md)
 
+5. [Stacks and Queues](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/stacks_and_queue/README.md)
