@@ -1,7 +1,7 @@
 import pytest
 
-from stacks.stacks import Node, Stack
-from stack_queue_pseudo.stack_queue_pseuodo import PseuedoQueue
+from stacks_and_queue.stacks.stacks import Node, Stacks
+from stack_queue_pseudo.stack_queue_pseudo import PseuedoQueue
 
 
 def test_can_instantiate_a_new_PseuedoQueue_class():

@@ -1,4 +1,4 @@
-from stacks.stacks import Node, Stack
+from stacks_and_queue.stacks.stacks import Node, Stack
 
 
 class PseuedoQueue:
