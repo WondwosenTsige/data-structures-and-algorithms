@@ -1,6 +1,5 @@
 from stacks_and_queue.stacks.stacks import Node, Stack
 
-
 class PseuedoQueue:
     def __init__(self):
         self.stack1 = Stack()
@@ -12,11 +11,11 @@ class PseuedoQueue:
     def dequeue(self):
 
         if self.stack1.isEmpty():
-            raise Exception("PseudoQueue is Empty")
+            raise Exception("PseudoQueue is empty")
 
         while not self.stack1.isEmpty():
-            popped = self.stack1.pop()
-            self.stack2.push(popped)
+            temp = self.stack1.pop()
+            self.stack2.push(temp)
 
         dequed = self.stack2.pop()
 

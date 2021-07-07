@@ -13,14 +13,12 @@ def test_can_instantiate_a_new_PseuedoQueue_class():
     assert actual1 == expected1
     assert actual2 == expected2
 
-
 def test_can_succefully_enqueue_one_value():
     new_pseudo = PseuedoQueue()
     new_pseudo.enqueue("a")
     actual = new_pseudo.stack1.top.value
     expected = "a"
     assert actual == expected
-
 
 def test_can_succesfully_enqueue_multiple_values(new_pseudo):
     actual1 = new_pseudo.stack1.top.value
@@ -30,18 +28,15 @@ def test_can_succesfully_enqueue_multiple_values(new_pseudo):
     assert actual1 == expected1
     assert actual2 == expected2
 
-
 def test_can_succesfully_dequeue_one_node(new_pseudo):
     actual = new_pseudo.dequeue()
     expected = "a"
     assert actual == expected
 
-
 def test_can_succesfully_dequeue_until_empty(new_pseudo):
     while not new_pseudo.isEmpty():
         new_pseudo.dequeue()
     assert new_pseudo.stack1.isEmpty()
-
 
 def test_dequeeing_an_empty_queue_will_raise_exception():
     empty_pseudo = PseuedoQueue()

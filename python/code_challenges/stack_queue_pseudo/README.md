@@ -1,7 +1,23 @@
 ## Challenge description
 
+Create a new class called pseudo queue.
 
+    Do not use an existing Queue.
 
+    Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below),
+
+    Internally, utilize 2 Stack instances to create and manage the queue
+
+Methods:
+
+    enqueue
+        Arguments: value
+            Inserts value into the PseudoQueue, using a first-in, first-out approach.
+
+    dequeue
+
+        Arguments: none
+            Extracts a value from the PseudoQueue, using a first-in, first-out approach.
 
 ## Link to code
 
@@ -10,6 +26,16 @@
 [Test: Stack-Queue-pseudo](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/tests/test_stack_queue_pseudo.py)
 
 ## Unit Tests Required
+
+can succefully enqueue one value
+
+can succesfully enqueue multiple values
+
+can succesfully dequeue one node
+
+can succesfully dequeue until empty
+
+dequeeing an empty queue will raise exception
 
 
 ## Whiteboard
