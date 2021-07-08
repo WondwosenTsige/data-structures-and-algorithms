@@ -1,6 +1,6 @@
 import pytest
 
-from code_challenges.stacks_and_queue.stacks.stacks import Stack
+from code_challenges.stacks_and_queue.stacks import Stack
 
 def test_Can_successfully_instantiate_an_empty_stack():
     new_stack = Stack()
