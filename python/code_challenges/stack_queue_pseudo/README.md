@@ -1,3 +1,5 @@
+# Code challange 11
+
 ## Challenge description
 
 Create a new class called pseudo queue.
@@ -37,7 +39,6 @@ can succesfully dequeue until empty
 
 dequeeing an empty queue will raise exception
 
-
 ## Whiteboard
 
 [Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/stack-queue-pseudo.jpg)
@@ -58,4 +59,3 @@ This is done in collaboration with my class mates Daniel Dills, Davve Sok, and M
 The following link helped me to visualize the problem
 
 [How to Implement a Queue Using Two Stacks](https://betterprogramming.pub/how-to-implement-a-queue-using-two-stacks-80772242b88c)
-
