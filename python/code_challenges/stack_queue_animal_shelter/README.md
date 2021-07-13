@@ -25,15 +25,13 @@ Implement the following methods:
 
 ## Unit Tests Required
 
-can succefully enqueue one value
+can succefully enqueue an animal
 
-can succesfully enqueue multiple values
+can succesfully dequeue an animal
 
-can succesfully dequeue one node
+enqueeing an other than dog and cat animal will raise exception
 
-can succesfully dequeue until empty
-
-dequeeing an empty queue will raise exception
+dequeeing an unavailable animal will raise exception
 
 
 ## Whiteboard

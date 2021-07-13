@@ -11,9 +11,9 @@ def test_can_enquee_animal():
 
 def test_enqueue_other_than_dig_or_cat_raise_exception():
     other_animal = AniamlShelter()
-    other_animal.enqueue("rat")
-    with pytest.raises(Exception):
-        other_animal.enqueue()
+    with pytest.raises(Exception) as exception_message:
+        other_animal.enqueue("rat")
+    assert str(exception_message.value) == "only cats or dogs"
 
 
 def test_can_dequeue_animal():
