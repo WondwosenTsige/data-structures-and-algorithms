@@ -22,7 +22,6 @@ Implement the following methods:
 
 [Code: Stack and Queue Animal shelter](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/stack_queue_animal_shelter/stack_queue_animal_shelter.py)
 
-
 ## Unit Tests Required
 
 can succefully enqueue an animal
@@ -31,8 +30,7 @@ can succesfully dequeue an animal
 
 enqueeing an other than dog and cat animal will raise exception
 
-dequeeing an unavailable animal will raise exception
-
+dequeueing an unavailable animal will raise exception
 
 ## Whiteboard
 
@@ -40,9 +38,8 @@ dequeeing an unavailable animal will raise exception
 
 ## approach and efficiency
 
-
+I used the basic concept of importing a node and queue from my previous code challenges stack-and-queue as I did in stack-queue-pseudo(code challange 11)
 
 ## Resources and Collaboration
 
-I used the basic concept of importing a node and queue from my previous code challenges stack-and-queue as I did in stack-queue-pseudo(code challange 11)
-
+I get help on fixing my test case from my Teaching Assistant, Aliya Summers. Thank you!
