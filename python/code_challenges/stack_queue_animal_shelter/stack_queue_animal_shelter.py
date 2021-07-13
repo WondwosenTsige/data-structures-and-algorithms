@@ -18,13 +18,13 @@ class AniamlShelter():
     def dequeue(self, pref):
 
         if pref == "dog":
-            if self.dog.front == None:
+            if self.dogs.front == None:
                 raise Exception("it is empty")
             else:
                 return self.dogs.dequeue()
 
         elif pref == "cat":
-            if self.cat.front == None:
+            if self.cats.front == None:
                 raise Exception("it is empty")
             else:
                 return self.cats.dequeue()
