@@ -38,7 +38,7 @@ dequeeing an empty queue will raise exception
 
 ## Whiteboard
 
-[Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/stack-queue-pseudo.jpg)
+[Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/stack_queue_animal.jpg)
 
 ## approach and efficiency
 
@@ -48,6 +48,3 @@ dequeeing an empty queue will raise exception
 
 This is done in collaboration with my class mates Daniel Dills, Davve Sok, and Micheal Ryan And Prabin
 
-The following link helped me to visualize the problem
-
-[How to Implement a Queue Using Two Stacks](https://betterprogramming.pub/how-to-implement-a-queue-using-two-stacks-80772242b88c)
