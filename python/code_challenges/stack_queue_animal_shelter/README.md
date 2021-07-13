@@ -46,5 +46,5 @@ dequeeing an empty queue will raise exception
 
 ## Resources and Collaboration
 
-This is done in collaboration with my class mates Daniel Dills, Davve Sok, and Micheal Ryan And Prabin
+I used the basic concept of importing a node and queue from my previous code challenges stack-and-queue as I did in stack-queue-pseudo(code challange 11)
 

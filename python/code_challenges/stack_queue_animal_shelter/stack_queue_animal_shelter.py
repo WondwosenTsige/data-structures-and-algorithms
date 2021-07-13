@@ -12,8 +12,6 @@ class AniamlShelter():
             elif animal == "cat":
                 self.cats.enqueue(animal)
 
-        #this is equivalent to else statement
-        #raise Exception("only cats or dogs")
             else:
                 raise Exception("only cats or dogs")
 
@@ -26,9 +24,12 @@ class AniamlShelter():
                 return self.dogs.dequeue()
 
         elif pref == "cat":
-            return self.cats.dequeue()
-        else:
-            return None
+            if self.cat.front == None:
+                raise Exception("it is empty")
+            else:
+                return self.cats.dequeue()
+
+        return None
 
 
 
