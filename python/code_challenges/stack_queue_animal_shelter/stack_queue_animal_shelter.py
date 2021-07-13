@@ -1,0 +1,34 @@
+from code_challenges.stacks_and_queue.queue.queue import Queue
+
+class AniamlShelter():
+    def __init__(self):
+        self.dogs = Queue()
+        self.cats = Queue()
+
+    def enqueue(self, animal):
+
+            if animal == "dog":
+                self.dogs.enqueue(animal)
+            elif animal == "cat":
+                self.cats.enqueue(animal)
+
+        #this is equivalent to else statement
+        #raise Exception("only cats or dogs")
+            else:
+                raise Exception("only cats or dogs")
+
+    def dequeue(self, pref):
+
+        if pref == "dog":
+            if self.dog.front == None:
+                raise Exception("it is empty")
+            else:
+                return self.dogs.dequeue()
+
+        elif pref == "cat":
+            return self.cats.dequeue()
+        else:
+            return None
+
+
+
