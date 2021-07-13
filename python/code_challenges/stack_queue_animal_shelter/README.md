@@ -34,7 +34,7 @@ dequeueing an unavailable animal will raise exception
 
 ## Whiteboard
 
-[Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/stack_queue_animal.jpg)
+[Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/stack-queue-animal-shelter.jpg)
 
 ## approach and efficiency
 
