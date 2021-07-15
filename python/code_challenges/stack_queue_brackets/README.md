@@ -29,3 +29,5 @@ Curly Brackets : {}
 ## approach and efficiency
 
 ## Resources and Collaboration
+
+[Educativeio - Balanced brackets in Python](https://www.educative.io/edpresso/balanced-brackets-in-python)
