@@ -24,7 +24,7 @@ Curly Brackets : {}
 
 ## Whiteboard
 
-[Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/stack-queue-animal-shelter.jpg)
+[Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/stack-queue-brackets.jpg)
 
 ## approach and efficiency
 
