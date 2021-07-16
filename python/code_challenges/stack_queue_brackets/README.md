@@ -30,6 +30,8 @@ can sucessfuly test multiple matching opening and closing brackets with strings
 
 can sucessfuly test a pair of unmatching opening and closing brackets with one extra unmatching opening or closing bracket
 
+can sucessfuly test multiple matching opening and closing brackets but order is not balanced
+
 ## Whiteboard
 
 [Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/stack-queue-brackets.jpg)

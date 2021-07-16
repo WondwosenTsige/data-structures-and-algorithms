@@ -20,3 +20,8 @@ def test_with_extra_opening_or_closing():
     actual = validate_brackets("()]")
     expected = False
     assert actual == expected
+
+def test_opening_and_closing_mathces_but_order_is_not_balaned():
+    actual = validate_brackets("([)]")
+    expected = False
+    assert actual == expected
