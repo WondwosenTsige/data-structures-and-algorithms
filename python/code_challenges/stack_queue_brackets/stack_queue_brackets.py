@@ -14,7 +14,7 @@ def validate_brackets(Str):
             top_bracket = stack.pop()
 
             # Compare whether two brackets are corresponding to each other
-            if not Compare(top_bracket, char):
+            if not compare(top_bracket, char):
                 return False
 
     # Check if the stack is empty or not
@@ -23,7 +23,7 @@ def validate_brackets(Str):
 
     return True
 
-def Compare(opening, closing):
+def compare(opening, closing):
     if opening == '(' and closing == ')':
         return True
     if opening == '[' and closing == ']':
