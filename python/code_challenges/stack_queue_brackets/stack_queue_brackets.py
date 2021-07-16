@@ -1,7 +1,8 @@
-def validate_brackets(Str):
+def validate_brackets(string):
     stack = []
 
-    for char in Str:
+    for char in string:
+
         # If its opening bracket, so push it in the stack
         if char == '{' or char == '(' or char == '[':
             stack.append(char)
@@ -16,6 +17,7 @@ def validate_brackets(Str):
             # Compare whether two brackets are corresponding to each other
             if not compare(top_bracket, char):
                 return False
+
 
     # Check if the stack is empty or not
     if len(stack) != 0:
