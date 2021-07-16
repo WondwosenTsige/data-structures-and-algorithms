@@ -34,7 +34,7 @@ can sucessfuly test multiple matching opening and closing brackets but order is 
 
 ## Whiteboard
 
-[Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/stack-queue-brackets.jpg)
+[Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/stack-queue-and-brackets.jpg)
 
 ## approach and efficiency
 
