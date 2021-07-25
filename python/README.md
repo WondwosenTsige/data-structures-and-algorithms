@@ -19,3 +19,5 @@
 7. [Stack & Queue Animal shelter](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/stack_queue_animal_shelter/README.md)
 
 8. [Stack Queue Brackets](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/stack_queue_brackets/README.md)
+
+9. [Trees](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/binary_tree/README.md)

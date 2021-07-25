@@ -1,6 +1,6 @@
 class Node:
     """
-    Docstring
+    Create a Node class that has properties for the value stored in the node, the left child node, and the right child node.
     """
 
     def __init__(self, value):
@@ -10,7 +10,11 @@ class Node:
 
 class BinaryTree:
     """
-    Docstring
+    Create a Binary Tree class
+        Define a method for each of the depth first traversals:
+            pre order
+            in order
+            post order which returns an array of the values, ordered appropriately.
     """
     def __init__(self):
         self.root = None
@@ -43,7 +47,7 @@ class BinaryTree:
         # left >> right >> root
         collection = []
         def traverse(root):
-            
+
             if root != None:
                 traverse(root.left)
                 traverse(root.right)
@@ -60,9 +64,15 @@ class BinarySearchTree(BinaryTree):
 This class should be a sub-class of the Binary Tree Class, with the following additional methods:
 
 """
+    def __init__(self):
+        self.root = None
 
-    def add():
-        pass
+    def add(self, value):
+
+        if self.root == None:
+            self.root = Node(value)
+            return
+
 
     def contains():
         pass
