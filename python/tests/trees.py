@@ -1,5 +1,5 @@
 import pytest
-from code_challenges.binary_tree.binary_tree import Node, BinaryTree, BinarySearchTree
+from code_challenges.trees.trees import Node, BinaryTree, BinarySearchTree
 
 #@pytest.mark.skip("pending")
 def test_node_has_value():
