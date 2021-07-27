@@ -1,20 +1,28 @@
-# Code challemge 13 (stack queue brackets)
+# Code challemge 15 Trees
 
 ## Challenge description
 
-Write a function called validate brackets
+Create a Binary Tree class
 
-Arguments: string
+    Define a method for each of the depth first traversals:
+        pre order
+        in order
+        post order which returns an array of the values, ordered appropriately.
 
-Return: boolean
+Any exceptions or errors that come from your code should be semantic, capture-able errors. For example, rather than a default error thrown by your language, your code should raise/throw a custom, semantic error that describes what went wrong in calling the methods you wrote for this lab.
 
-    representing whether or not the brackets in the string are balanced
+Create a Binary Search Tree class
 
-There are 3 types of brackets:
+    This class should be a sub-class (or your languages equivalent) of the Binary Tree Class, with the following additional methods:
 
-Round Brackets : ()
-Square Brackets : []
-Curly Brackets : {}
+    Add
+        Arguments: value
+        Return: nothing
+        Adds a new node with that value in the correct location in the binary search tree.
+
+    Contains
+        Argument: value
+        Returns: boolean indicating whether or not the value is in the tree at least once.
 
 ## Link to code
 
@@ -22,24 +30,24 @@ Curly Brackets : {}
 
 ## Unit Tests Required
 
-can sucessfuly test a pair of matching opening and closing brackets
+can successfully instantiate an empty tree
 
-can sucessfuly test a pair of unmatching opening and closing brackets
+Can successfully instantiate a tree with a single root node
 
-can sucessfuly test multiple matching opening and closing brackets with strings
+Can successfully add a left child and right child to a single root node
 
-can sucessfuly test a pair of unmatching opening and closing brackets with one extra unmatching opening or closing bracket
+Can successfully return a collection from a preorder traversal
 
-can sucessfuly test multiple matching opening and closing brackets but order is not balanced
+Can successfully return a collection from an inorder traversal
+
+Can successfully return a collection from a postorder traversal
 
 ## Whiteboard
 
-[Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/stack-queue-and-brackets.jpg)
-
-## approach and efficiency
+[Example Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/tree-example.jpg)
 
 ## Resources and Collaboration
 
-I get the overall Idea and the code from the following weblink, understand it well and wrote all the test cases from scratch by myself
+I collaborated with Pabin, Davee and Daniel on the Binary search tree part of this challenge and also Get help from our TA Anthony Beaver
 
-[Educativeio - Balanced brackets in Python](https://www.educative.io/edpresso/balanced-brackets-in-python)
+
