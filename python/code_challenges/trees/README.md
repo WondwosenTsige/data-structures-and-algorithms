@@ -26,7 +26,7 @@ Create a Binary Search Tree class
 
 ## Link to code
 
-[Code: Stack Queue Brackets](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/stack_queue_brackets/stack_queue_brackets.py)
+[Code: Trees](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/trees/trees.py)
 
 ## Unit Tests Required
 
