@@ -19,7 +19,7 @@ class BinaryTree:
     def __init__(self):
         self.root = None
 
-    def pre_order():
+    def pre_order(self):
         # root >> left >> right
 
         collection = []
@@ -29,10 +29,11 @@ class BinaryTree:
                 collection.append(root.value)
                 traverse(root.left)
                 traverse(root.right)
-            return collection
+        traverse(self.root)
+        return collection
 
 
-    def in_order():
+    def in_order(self):
         # left >> root >> right
         collection = []
         def traverse(root):
@@ -41,9 +42,10 @@ class BinaryTree:
                 traverse(root.left)
                 collection.append(root.value)
                 traverse(root.right)
-            return collection
+        traverse(self.root)
+        return collection
 
-    def post_order():
+    def post_order(self):
         # left >> right >> root
         collection = []
         def traverse(root):
@@ -52,7 +54,8 @@ class BinaryTree:
                 traverse(root.left)
                 traverse(root.right)
                 collection.append(root.value)
-            return collection
+        traverse(self.root)
+        return collection
 
 
 
@@ -69,10 +72,44 @@ This class should be a sub-class of the Binary Tree Class, with the following ad
 
     def add(self, value):
 
+        node = Node(value)
+
         if self.root == None:
             self.root = Node(value)
-            return
+            return self
+
+        current = self.root
+
+        while current:
+            if value == current.value:
+                raise Exception("Value already exist")
+
+            if value > current.value:
+                if current.right is None:
+                    current.right = node
+                    return self
+                current = current.right
+
+            else:
+                if current.left is None:
+                    current.left = node
+                    return self
+                current = current.left
 
 
-    def contains():
-        pass
+    def contains(self, target):
+
+        if self.root is None:
+            return None
+        current = self.root
+
+        while current:
+            if current.value == target:
+                return True
+            if target > current.value:
+                current = current.right
+            else:
+                current = current.left
+        return False
+
+
