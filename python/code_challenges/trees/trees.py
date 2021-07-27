@@ -22,6 +22,9 @@ class BinaryTree:
     def pre_order(self):
         # root >> left >> right
 
+        if self.root is None:
+            return "tree empty"
+
         collection = []
         def traverse(root):
 
