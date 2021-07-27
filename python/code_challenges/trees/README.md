@@ -28,6 +28,8 @@ Create a Binary Search Tree class
 
 [Code: Trees](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/trees/trees.py)
 
+[White board Get maximum value](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/max_value_binary_tree.png)
+
 ## Unit Tests Required
 
 can successfully instantiate an empty tree
