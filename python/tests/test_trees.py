@@ -51,6 +51,16 @@ def test_post_order_return_correct_values(new_tree):
     expected = [12, 17, 15, 23, 28, 25, 20]
     assert actual == expected
 
+def test_max_value_tree(new_tree):
+    actual = new_tree.max_value()
+    expected = 28
+    assert actual == expected
+
+def test_max_value_tree(new_tree):
+    actual = new_tree.max_value()
+    expected = 15
+    assert actual != expected
+
 def test_add_will_add_to_tree():
     tree = BinarySearchTree()
     tree.add(10)
