@@ -3,10 +3,10 @@ class Node:
     Create a Node class that has properties for the value stored in the node, the left child node, and the right child node.
     """
 
-    def __init__(self, value = None, left = None, right = None):
+    def __init__(self, value):
         self.value = value
-        self.left = left
-        self.right = right
+        self.left = None
+        self.right = None
 
 class BinaryTree:
     """
@@ -16,8 +16,8 @@ class BinaryTree:
             in order
             post order which returns an array of the values, ordered appropriately.
     """
-    def __init__(self, node = None, max_num = 0):
-        self.root = node
+    def __init__(self, root = None, max_num = 0):
+        self.root = root
         self.max_num = max_num
 
     def pre_order(self):
@@ -92,8 +92,6 @@ class BinarySearchTree(BinaryTree):
 This class should be a sub-class of the Binary Tree Class, with the following additional methods:
 
 """
-    # def __init__(self):
-    #     self.root = None
 
     def add(self, value):
 
