@@ -10,7 +10,6 @@ Return: list of all values in the tree, in the order they were encountered
 
 NOTE: Traverse the input tree using a Breadth-first approach
 
-
 ## Link to code
 
 [Code: tree-breadth-first](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/breadth_first/breadth_first.py)
@@ -35,4 +34,4 @@ Can successfully take unorderd list
 
 ## Resources and Collaboration
 
-I collaborated with Pabin, Davee and Daniel on the Binary search tree part of this challenge and also Get help from our TA Anthony Beaver
+I collaborated with Micheal Ryan and get help from Pabin, Davee and Daniel.
