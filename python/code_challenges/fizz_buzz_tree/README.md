@@ -24,23 +24,14 @@ Determine whether or not the value of each node is divisible by 3, 5 or both. Cr
 
 ## Unit Tests Required
 
-can sucessfuly test a pair of matching opening and closing brackets
 
-can sucessfuly test a pair of unmatching opening and closing brackets
-
-can sucessfuly test multiple matching opening and closing brackets with strings
-
-can sucessfuly test a pair of unmatching opening and closing brackets with one extra unmatching opening or closing bracket
-
-can sucessfuly test multiple matching opening and closing brackets but order is not balanced
 
 ## Whiteboard
 
-[Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/stack-queue-and-brackets.jpg)
+[Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/FizzBuzzTree.jpg)
 
 ## approach and efficiency
 
 ## Resources and Collaboration
 
-I get the overall Idea and the code from the following weblink, understand it well and wrote all the test cases from scratch by myself
 

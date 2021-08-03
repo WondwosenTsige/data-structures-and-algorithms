@@ -23,3 +23,5 @@
 9. [Trees](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/binary_tree/README.md)
 
 10. [Tree Breadth-First](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/breadth_first/README.md)
+
+11. [Fizz Buzz Tree](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/fizz_buzz_tree/README.md)
