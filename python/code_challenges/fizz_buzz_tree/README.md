@@ -34,4 +34,5 @@ Determine whether or not the value of each node is divisible by 3, 5 or both. Cr
 
 ## Resources and Collaboration
 
+Collaborated with Davee Sok, Daniel Dills, Michael Ryan, and Prabin Singh
 
