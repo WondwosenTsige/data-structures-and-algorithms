@@ -1,4 +1,4 @@
-from code_challenges.stacks_and_queue.queue import Queue
+from code_challenges.stacks_and_queue.queue.queue import Queue
 class K_node:
 
     def __init__(self, value=None, children=[]):
