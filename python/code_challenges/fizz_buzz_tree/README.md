@@ -25,10 +25,9 @@ Determine whether or not the value of each node is divisible by 3, 5 or both. Cr
 ## Unit Tests Required
 
 
-
 ## Whiteboard
 
-[Whiteboard Image](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/FizzBuzzTree.jpg)
+[Whiteboard Image](python/code_challenges/images/FizzBuzzTree.jpg)
 
 ## approach and efficiency
 
