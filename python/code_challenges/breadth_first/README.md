@@ -30,7 +30,7 @@ Can successfully take unorderd list
 
 ## Whiteboard
 
-[White board tree breadth first](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/tree_breadth_first.jpg)
+[White board tree breadth first](https://github.com/WondwosenTsige/data-structures-and-algorithms/blob/main/python/code_challenges/images/tree_breadth_first.jpg)
 
 ## Resources and Collaboration
 
