@@ -68,3 +68,11 @@ Ensure your complete code solution follows the standard requirements.
 Write unit tests
 Follow the template for a well-formatted README
 Submit the assignment following these instructions
+
+
+## Resource and Collaboration
+
+Collaborated with Daniel Dills and used the following website for code reference
+
+[Python Program for Merge Sort](https://www.geeksforgeeks.org/python-program-for-merge-sort/)
+
