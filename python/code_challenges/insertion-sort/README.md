@@ -1,6 +1,6 @@
 # Code Challenge 26: Insertion-Sort
 
-Assignment
+## Assignment
 
 Review the pseudocode below, then trace the algorithm by stepping through the process with the provided sample array. Document your explanation by creating a blog article that shows the step-by-step output after each iteration through some sort of visual.
 
@@ -51,3 +51,9 @@ Ensure your complete code solution follows the standard requirements.
 Write unit tests
 Follow the template for a well-formatted README
 Submit the assignment following these instructions
+
+## Resource and Collaboration
+
+Used the following website for code reference
+
+[Python Program for Insertion Sort](https://www.geeksforgeeks.org/python-program-for-insertion-sort/)

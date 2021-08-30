@@ -1,4 +1,4 @@
-# Code challenge 27
+# Code challenge 27 Merge sort
 
 ## Assignment
 
