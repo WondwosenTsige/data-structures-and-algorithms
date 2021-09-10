@@ -25,3 +25,7 @@
 10. [Tree Breadth-First](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/breadth_first/README.md)
 
 11. [Fizz Buzz Tree](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/fizz_buzz_tree/README.md)
+
+12. [Hash Table](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/hashtable/README.md)
+
+13. [Hash Repeated Word](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/hashmap_repeated_word/README.md)
