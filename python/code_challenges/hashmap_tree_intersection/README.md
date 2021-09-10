@@ -21,4 +21,6 @@ Return: array
 
 ## Reference and Collaboration
 
-Collaborated with Daniel Dills, Davee Sok, and Prabin Singh
+Collaborated with Daniel Dills, Davee Sok, Garfield Grant, Marie Marcos and Prabin Singh. I also used the following list as an additional  feference
+
+[Python Intersection of two lists](https://www.geeksforgeeks.org/python-intersection-two-lists/)
