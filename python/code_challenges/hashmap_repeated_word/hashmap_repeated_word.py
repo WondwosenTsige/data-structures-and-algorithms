@@ -2,7 +2,7 @@ import re
 from hashtable.hashtable import HashTable
 
 
-def first_repeated(string):
+def first_repeated_word(string):
 
     if len(string) == 0:
         return None
