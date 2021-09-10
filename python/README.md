@@ -29,3 +29,5 @@
 12. [Hash Table](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/hashtable/README.md)
 
 13. [Hash Repeated Word](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/hashmap_repeated_word/README.md)
+
+14. [Hashmap tree intersection](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/hashmap_intersection/README.md)
