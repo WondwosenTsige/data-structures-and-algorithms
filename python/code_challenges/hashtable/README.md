@@ -46,3 +46,7 @@ Write tests to prove the following functionality:
     Successfully retrieve a value from a bucket within the hashtable that has a collision
     Successfully hash a key to an in-range value
     Ensure your tests are passing before you submit your solution.
+
+## Collaboration and reference
+
+I used the class repo as a reference and collaborated with Daniel Dills, Davee Sok, and Prabin Singh
