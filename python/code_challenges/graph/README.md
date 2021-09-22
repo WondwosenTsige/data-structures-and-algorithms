@@ -1,4 +1,4 @@
-# Code challenge hashmap-left-join
+# Code challenge:- Graph implementation
 
 ## Challenge Setup & Execution
 
@@ -36,7 +36,7 @@ size
 
 Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge. You will be given feedback and marked down if you attempt to define a large, complex algorithm in one function definition.
 
-    Write tests to prove the following functionality:
+Write tests to prove the following functionality:
 
     Node can be successfully added to the graph
     An edge can be successfully added to the graph
@@ -49,4 +49,4 @@ Utilize the Single-responsibility principle: any methods you write should be cle
 
 ## Reference and Collaboration
 
-Collaborated with Daniel Dills, Davee Sok, and Prabin Singh.
+Collaborated with Daniel Dills, Davee Sok, Prabin Singh, and Marie Marcos
