@@ -35,3 +35,5 @@
 15. [Hashmap left join](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/hashmpa_left_join/README.md)
 
 16. [Graph](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/graph/README.md)
+
+17. [Graph_ Business trip](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/graph_business_trip/README.md)
