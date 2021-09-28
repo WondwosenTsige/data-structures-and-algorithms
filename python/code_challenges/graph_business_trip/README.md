@@ -22,7 +22,8 @@ Ensure your tests are passing before you submit your solution.
 
 ## Whiteboard image
 
+[Whiteboard-graph business trip](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/images/graph-business-trip.JPG)
+
 ## Reference and Collaboration
 
-Used our clas repo starter code from Roger
 Collaborated with Daniel Dills, Davee Sok, Prabin Singh, and Marie Marcos
