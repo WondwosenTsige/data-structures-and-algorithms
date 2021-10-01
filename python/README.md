@@ -37,3 +37,7 @@
 16. [Graph](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/graph/README.md)
 
 17. [Graph_ Business trip](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/graph_business_trip/README.md)
+
+18. [Graph- breadth first](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/graph_breadth_first/README.md)
+
+19. [Graph- depth first](/home/wonde/codefellows/code-401/data-structures-and-algorithms/python/code_challenges/graph_depth_first/README.md)
